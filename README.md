@@ -1,6 +1,9 @@
 Este modulo foi um inicio ao trabalho com repositório remoto e local ao git hub, nele fiz alguns testes de commits, push, pul e alguns testes com branchs.
 
 Comandos utilizados: 
+
+
+
 git init                                                       //Comando para iniciar o repositorio git localmente
 
 git config --global user.name "lucasdiniz1708"                  //Configurações de Usuario                
