@@ -22,6 +22,7 @@ git diff nomedoarquivo                                          //mostra as alte
 git commit -m "Criando os arquivos principais"                
 git commit -am ""                                               //Junção do add com o commit
 
+git restore 
 
 git reset --soft iddocommit                             //Remove o commit indicado sem perder as alterações na maquina local, mandando o HEAD para o commit anterior
 git reset --mixed iddocommit                            // Semelhante ao soft mas remove também as alterações feitas no indice(ADD)
@@ -40,6 +41,7 @@ git push origin master                      //Envia as alterações para o repos
 git push origin teste                       //Manda o branch teste para o repositorio remoto
 git push origin :teste                     //Deleta o branch do repositorio remoto
 
+git fetch 
 git pull origin master                      //Puxa as informações do repositorio remoto ao local
 git clone urldoprojeto                      //Puxa as informaçoes de um repositorio publico para o repositorio local
 
